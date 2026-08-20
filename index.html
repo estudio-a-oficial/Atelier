@@ -237,6 +237,36 @@
             margin-top: 1rem;
             margin-left: 0.5rem;
         }
+
+        /* Quita el color azul de enlace por defecto */
+.logo-area, .logo-area:visited {
+    text-decoration: none;
+}
+
+/* Tipografía y tamaño general del texto del logo */
+.logo-text {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Color dorado/naranja de Atelier para "ESTUDIO" */
+.text-estudio {
+    color: var(--accent-atelier); /* Usa el naranja #F59E0B que definiste */
+}
+
+/* Color verde para la "A" */
+.text-a {
+    color: #25D366; /* Verde tipo WhatsApp / acento verde */
+}
+
+
+
+
+
+
+        
     </style>
 </head>
 <body>
@@ -244,7 +274,10 @@
     <header>
         <a href="index.html" class="logo-area">
             <img src="img/logo-atelier.png" alt="Estudio A Atelier" class="logo-img">
-                <span class="logo-text">ESTUDIO <span>A</span></span>
+            <span class="logo-text">
+               <span class="text-estudio">ESTUDIO</span> 
+               <span class="text-a">A</span>
+            </span>     
         </a>
         <nav>
             <a href="https://www.instagram.com/estudio.con.a?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="btn-nav-instagram">Instagram</a>
